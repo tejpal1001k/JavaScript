@@ -3,11 +3,15 @@
 var a = 10;
 var b = 20; 
 // var b = false; 
-if(a >= b){
+if(a > b){
     console.log("a is greather then b");
+}else if(a == b){
+    console.log("b is equal a");  
 }else{
     console.log("b is greather then a");  
+
 }
+
 
 // all the days of a week 1 to 7
 
